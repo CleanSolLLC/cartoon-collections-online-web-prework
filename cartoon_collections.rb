@@ -22,10 +22,9 @@ end
 end
 
 def find_the_cheese(food_types)
-cheese_types = ["cheddar", "gouda", "camembert"]  
+cheese_types = ["cheddar", "gouda", "camembert"]
 food_types.find { |x| [cheese_types].include?(x)}
 end
 
 # the array below is here to help
 #food_types = ["banana", "cheddar", "sock"]
-
